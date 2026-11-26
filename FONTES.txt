@@ -1,0 +1,41 @@
+FONTES E CRÉDITOS
+
+Autor do dataset: Nik Davis.
+Título: Steam Store Games (Clean dataset), versão 3, steam.csv.
+Página original: https://www.kaggle.com/datasets/nikdavis/steam-store-games
+Origem primária: APIs da Steam Store e SteamSpy.
+Licença indicada na página original: Creative Commons Attribution 4.0 International.
+Licença: https://creativecommons.org/licenses/by/4.0/
+Consulta e obtenção: 25/11/2026.
+
+O download direto do Kaggle não ficou disponível neste ambiente. Foi utilizada
+uma cópia pública do steam.csv que credita explicitamente Nik Davis e o Kaggle:
+https://github.com/jsngn/steam-machine-learning/blob/master/steam.csv
+Download: https://raw.githubusercontent.com/jsngn/steam-machine-learning/master/steam.csv
+Tamanho do CSV: 5815053 bytes.
+SHA-256: 783087562c9bab27faf7c4c1c8040269489ab2fc2054549971be01eb6c007f99
+Conferência estrutural: 27.075 registros, 18 colunas, datas de 30/06/1997 a 01/05/2019.
+Essas conferências documentam a cópia recebida; não substituem uma comparação
+byte a byte com um download oficial independente do Kaggle.
+
+Alterações nesta entrega: conversão de tipos, validação, padronização de textos,
+identificação de campos ausentes e criação de variáveis analíticas. Dados originais
+preservados em dados/steam.csv; preparação em dados/steam_tratado.csv.
+As análises, gráficos e conclusões não foram produzidos nem endossados pelo autor.
+
+Documentação do autor consultada para interpretação do preço e da coleta:
+https://nik-davis.github.io/posts/2019/steam-data-cleaning/
+Preço: GBP, valor inicial antes de desconto no momento da coleta; não é uma
+série histórica nem necessariamente o preço de lançamento.
+
+Referência de organização e interatividade fornecida na atividade:
+https://ciencia-dados.streamlit.app/
+Aplicativo State of Data Brasil. Consultado no navegador em 25/11/2026.
+Foi usada como referência de organização por seções; os dados e análises aqui
+tratam exclusivamente da base Steam descrita acima.
+
+Documentação oficial para executar e publicar:
+https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
+https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies
+https://plotly.com/python/
+https://pandas.pydata.org/docs/

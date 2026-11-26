@@ -1,0 +1,38 @@
+STEAM EM PERSPECTIVA
+Como os jogos mudaram ao longo dos anos?
+
+Integrantes: Felipe Oldenburg da Silva e Alicia Cariny Borges.
+Tarefa: PL-890.
+
+Objetivo: explorar lançamentos, rótulos de gênero, preços registrados,
+multiplayer e avaliações em 27.075 registros da base Steam Store Games.
+
+EXECUÇÃO LOCAL (Python 3.12)
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+VALIDAÇÃO
+python verificar.py
+
+PUBLICAÇÃO NO STREAMLIT COMMUNITY CLOUD
+Branch: main
+Arquivo principal: app.py
+Versão de Python: 3.12
+Nenhum secret é necessário. O CSV está incluído em dados/steam.csv.
+
+ARQUIVOS
+app.py: dashboard com oito gráficos e filtros compartilhados.
+tratamento.py: validação, criação de variáveis e filtros em Pandas.
+analise.py: gráficos Plotly e interpretações calculadas para cada recorte.
+verificar.py: verificações dos dados, dos gráficos e da aplicação.
+FONTES.txt: procedência, créditos, licença e integridade do CSV.
+
+DADOS E CRÉDITOS
+Nik Davis, Steam Store Games (Clean dataset), Kaggle, CC BY 4.0.
+https://www.kaggle.com/datasets/nikdavis/steam-store-games
+Origem: Steam Store e SteamSpy. Cópia e alterações descritas em FONTES.txt.
+
+LIMITES DA ANÁLISE
+A base termina em 01/05/2019, portanto 2019 é parcial. Os preços são em GBP
+na coleta de 2019, não preços históricos de lançamento. Os rótulos de gênero
+podem se sobrepor. Os resultados descrevem esta amostra histórica.
