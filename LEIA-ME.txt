@@ -4,6 +4,8 @@ Como os jogos mudaram ao longo dos anos?
 Integrantes: Felipe Oldenburg da Silva e Alicia Cariny Borges.
 Tarefa: PL-890.
 
+Dashboard público: https://steam-felipe-alicia.streamlit.app/
+
 Objetivo: explorar lançamentos, rótulos de gênero, preços registrados,
 multiplayer e avaliações em 27.075 registros da base Steam Store Games.
 
